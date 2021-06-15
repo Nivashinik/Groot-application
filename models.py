@@ -1,4 +1,5 @@
 from django.db import models
+'''
 class formcontact(models.Model):
     fname=models.CharField(max_length=30)
     lname=models.CharField(max_length=30)
@@ -15,6 +16,7 @@ class jobcontact(models.Model):
     manager=models.CharField(max_length=30)
     def _str_(self):
        return self.empcode
+ '''     
 class Contact(models.Model):
     Name=models.CharField(max_length=30)
     email=models.EmailField()
