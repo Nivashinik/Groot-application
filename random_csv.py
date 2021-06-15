@@ -1,7 +1,7 @@
 import csv
 import random
 
-records=100
+records=100000
 print("Making %d records\n" % records)
 
 fieldnames=['Name','email','password','message']
