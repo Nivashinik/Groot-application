@@ -5,11 +5,12 @@ from django.contrib.auth.decorators import permission_required
 from django.contrib.auth.hashers import make_password, check_password
 
 import datetime
-from my_app.models import formcontact
-from my_app.models import jobcontact
+#from my_app.models import formcontact
+#from my_app.models import jobcontact
 from my_app.models import Contact
 # Create your views here.
 from django.http import HttpResponse
+'''
 def index(request):
     return HttpResponse('Hello, World !')
 from django.http import HttpResponse
@@ -78,7 +79,7 @@ def upload(request):
         print(uploaded_file.size)
     return render(request,'upload.html')   
     
-    
+  '''  
 
 
 @permission_required('admin.can_add_log_entry')
